@@ -1,0 +1,95 @@
+.header input {
+    display: block;
+    box-sizing: border-box;
+    padding-left: 0.1rem;
+    width: 2.53rem;
+    height: 0.3rem;
+    background: #f8f8f8;
+    border-radius: 0.03rem;
+    border: none;
+    margin: auto;
+    position: relative;
+}
+.header{
+    padding-top: 0.1rem;
+}
+.header img{
+    width: 0.15rem;
+    position: absolute;
+    top: 0.18rem;
+    right: 0.7rem;;
+}
+.lishi h4{
+    color: gray;
+    padding-left: 0.25rem;
+}
+.lishi>p{
+    font-size: 0.14rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+.lishi ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lishi ul li{
+    padding: 0.03rem .13rem;
+    background: #f2f2f2;
+    border-radius: 0.5rem;
+    margin-left: 0.25rem;
+    margin-top: 0.15rem;
+    font-size: 0.13rem;
+}
+.main>h4{
+    text-align: center;
+    margin-top: 0.2rem;
+    margin-bottom: 0.1rem;
+}
+.yangsheng{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0.1rem 0.15rem 0.1rem 0.15rem;
+}
+
+.yangshengimg a{
+    width:48%;
+    text-decoration: none;
+}
+.yangshengimg a img{
+    width: 100%;
+    margin-top: 0.1rem;
+}
+.yangshengimg a h3{
+    text-decoration: none;
+    color:black;
+    font-size: 0.12rem;
+}
+.yangshengimg p{
+    margin-top: 0.05rem;
+}
+.yangshengimg a p span{
+    font-size: 0.18rem;
+    color: red;
+}
+.yangshengimg button{
+    width: 0.15rem;
+    height: 0.15rem;
+    border: none;
+    border-radius: 50%;
+    float: right;
+    margin-top: 0.05rem;
+}
+.footer div{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    border-top: 1px solid gainsboro;;
+}

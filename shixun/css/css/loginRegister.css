@@ -1,0 +1,20 @@
+.chenggyy {
+    background: url(../img/subjectbg.jpg) top center no-repeat;
+}
+.decoratetp img{
+    height: 0.58rem;
+}
+.sanailogoimg{
+    width: 0.95rem;
+}
+.logoing{
+    height: 0.4rem;
+    line-height: 0.4rem;
+    border: 1px solid gray;
+}
+.decoratetp_bot{
+    margin-top: 0.75rem;
+}
+.decoratetp_bot img{
+    width: 0.9rem;
+}

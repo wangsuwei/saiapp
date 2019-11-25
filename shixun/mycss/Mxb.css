@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 1rem;
+    background: oldlace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+footer{
+    height: 1.2rem;
+    background: cornsilk;
+    display: flex;
+}
+.content{
+    flex: 1;
+    overflow: auto;
+    height: 100%;
+}
+.Mxb_head{
+    width: 6rem;
+    height: 0.6rem;
+    background: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Mxb_head>img{
+    width: 0.35rem;
+
+}
+.Mxb_head:hover{
+    background: cornflowerblue;
+}
+section{
+    width: 100%;
+    height: 3rem;
+    background: cornsilk;
+    position: relative;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+}
+.Daily{
+    height: 1.2rem;
+    background: gainsboro;
+    font-size: 16px;
+    display: flex;
+  
+    align-items: center;
+}
+.Daily div{
+    width: 100%;
+    height: 0.8rem;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+.Daily div img{
+    width: 0.4rem;
+}
+.Daily div span:nth-of-type(1){
+    color: orange;
+}
+.Daily div span:nth-of-type(2){
+    font-size: 12px;
+}
+.Popular{
+    height: 5rem;
+    background: whitesmoke;
+}
+.Popular_mxb{
+    height: 1rem;
+    background: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Img_mxb{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+.Img_mxb>img{
+    width: 46%;
+    height: 46%;
+    margin-left: 0.2rem;
+    
+}
+.Mxb_Seasonal{
+    height: 12rem;
+
+}
+.Mxb_seas{
+    height: 1rem;
+    width: 7rem;
+    margin: 0 auto; 
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Mxb_seaso{
+    width: 7rem;
+    height: 2.6rem;
+    margin: 0 auto;
+}
+.Mxb_seaso img{
+    width: 100%;
+    height: 2.6rem;
+}
+.Mxb_drug{
+    width: 7rem;
+    height: 8.4rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+
+}
+.mxb_drugs{
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+    width: 48%;
+    height: 2.6rem;
+    font-size: 12px;
+    
+}
+.mxb_drugs img{
+    width: 100%;
+    height: 2.6rem;
+}
+.Mxb_p>span{
+  font-size: 16px;
+  color: red;  
+}
+.Mxb_p>button{
+    width: 0.30rem;
+    height: 0.30rem;
+    border-radius: 50%;
+    border: none;
+    float: right;
+}
+footer>div{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer>div>img{
+   width: 0.45rem;
+   margin-top: 0.1rem;
+
+}
+footer>div>p{
+    font-size: 16px;
+    margin-top: 0.1rem;
+}
+footer>div:hover{
+    background: tomato;
+}

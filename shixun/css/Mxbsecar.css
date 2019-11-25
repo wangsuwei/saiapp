@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.content{
+    flex: 1;
+    overflow: auto;
+    height: 100%;
+
+}
+footer{
+    height: 1.2rem;
+    background: cornsilk;
+    display: flex;
+}
+footer>div{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer>div>img{
+   width: 0.45rem;
+   margin-top: 0.1rem;
+
+}
+footer>div>p{
+    font-size: 16px;
+    margin-top: 0.1rem;
+}
+footer>div:hover{
+    background: tomato;
+}
+.Mxb_seacrch{
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Secarch{
+    width: 5rem;
+    height: 0.6rem;
+    background: floralwhite;
+    border-radius: 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-indent: 30px;
+}
+.Secarch>img{
+    width: 0.4rem;
+}
+section{
+    height: 3.0rem;
+    
+}
+.Historical{
+    width: 7rem;
+    height: 3.0rem;
+    margin: 0 auto;
+    
+}
+h2{
+    font-size: 20px;
+    color: gray;
+}
+.MXB_BTN{
+    width:7rem ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.MXB_BTN>a{
+    width: 1.5rem;
+	background: #f2f2f2;
+	border-radius: 0.1rem;
+	text-align: center;
+	padding: 0.05rem 0;
+	float: left;
+	margin-left:  0.15rem;
+    margin-top: 0.3rem;
+    font-size: 16px;
+}
+h3{
+    height: 0.8rem;
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+}
+.Mxb_seaso{
+    width: 7rem;
+    height: 2.6rem;
+    margin: 0 auto;
+}
+.Mxb_seaso img{
+    width: 100%;
+    height: 2.6rem;
+}
+.Mxb_drug{
+    width: 7rem;
+    height: 8.4rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+
+}
+.mxb_drugs{
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+    width: 48%;
+    height: 2.6rem;
+    font-size: 12px;
+    
+}
+.mxb_drugs img{
+    width: 100%;
+    height: 2.6rem;
+}
+.Mxb_p>span{
+  font-size: 16px;
+  color: red;  
+}
+.Mxb_p>button{
+    width: 0.30rem;
+    height: 0.30rem;
+    border-radius: 50%;
+    border: none;
+    float: right;
+}

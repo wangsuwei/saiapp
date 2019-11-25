@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="telephone=no" name="format-detection">
+<title>预约界面</title>
+<link type="text/css" rel="stylesheet" href="css/base.css">
+<link type="text/css" rel="stylesheet" href="css/index.css">
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/width_100.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+</head>
+<body>
+    <div class="ml15 mr15 datebox mt15 pl15 pr10 bra10 pb15">
+        <h3 class="f15 fb font_ht mt15 mb5 colorcf9156">温馨提示</h3>
+        <!--<p class="f13 font_ht lineH25">
+            <em class="colorcf9156 f13">1.使用高端医疗保险，预约先不支付，到店结算。</em><br>
+            2.若预约满，可拨打客服电话咨询：<br>
+            浦东店：021-58762557<br>
+            浦西店：021-53028359
+        </p>-->
+        <p class="f13 font_ht lineH25">
+            尊敬的客户您好！以下事项请您仔细阅读：<br>
+            1. 部分医生的预约需要预付费用，如您正常就诊，预付费用即抵扣等额的诊疗费用。如果需要取消预约，请您在<em class="colorcf9156 f13 fb">看诊日期前一天的18：00前取消</em>，系统将全额退还预付费用，晚于该时间则不予退还，感谢您的理解和配合！<br>
+            <em class="colorcf9156 f13 fb">2. 高端医疗保险直付客户，不需支付预约费用，直接到店结算。</em><br>
+            <em class="colorcf9156 f13 fb">3. 请在15分钟内完成支付，否则将会自动取消该预约</em><br>
+            <em class="colorcf9156 f13 fb">4. 若预约已满，或有其他疑问，可拨打客服电话咨询：<br>
+            浦西店：021-53028359<br>
+            浦东店：021-58762557</em>
+		</p>
+    </div>
+
+<div class="ml15 mr15 pb25" style="padding-bottom:.7rem;">
+	 <div class="datebox mt15 bra10 pb15">
+        <h5 class="f15 fb font_ht mt10 pl15 pr10">预约信息</h5>
+        <div class="userbox clearfix pl15 pr10">
+        	<span class="fl aaaa clearfix">
+            	<em class="f15 font_ht fb fl txh">姓名：</em>
+                <input class="fl f12 font_ht pl5 pr5" type="text" style="width:.65rem; height:.2rem; border:1px solid #929292;">
+            </span>
+            <span class="fl f15 font_ht fb clearfix">
+            	<em class="f15 font_ht fb fl txh">手机号：</em>
+                <input class="numberuser fl f12 font_ht pl5 pr5" type="text" style="width:1.1rem; height:.2rem; border:1px solid #929292;" maxlength="11" onkeyup="value=value.replace(/[^\d]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))">
+            </span>
+            <span class="fl aaaa">
+                <em class="fl f15 font_ht fb">年龄：</em>
+                <input class="ageinp tc f15" type="text" maxlength="2" onkeyup="value=value.replace(/[^\d]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))">
+            </span>
+            <span class="fl">
+                <em class="fl f15 font_ht fb">性别：</em>
+                <label class="fl f15 font_ht fb ml5 pr"><i class="pa radinI"></i><input class="fl radioinp hidden" type="radio" name="radioinp">男</label>
+                <label class="fl f15 font_ht fb ml10 pr"><i class="pa radinI"></i><input class="fl radioinp hidden" type="radio" name="radioinp">女</label>
+            </span>
+        </div>
+    </div>
+    <!-- end -->
+    <div class="datebox mt15 pl15 pr10 bra10 pb15">
+        <p class="f15 font_ht lineH22 fb mt15">预约时间：2019-06-29 星期六</p>
+        <p class="f15 font_ht lineH22 fb mt10">预约医生：张厚杰</p>
+        <p class="f15 font_ht lineH22 fb mt10">预约院区：上海市三爱中医门诊部</p>
+    </div>
+    <!-- end -->
+     <div class="datebox mt15 bra10 pb15">
+        <p class="f15 font_ht lineH22 fb mt15 pl15 pr10">选择预约时间<span class="f12 colorcf9156 dis_inlin_biock ml10" style="font-weight:normal;">（注：若已约满，请联系客服加号）</span></p>
+        <div class="yuyuedate clearfix">
+        	<div class="fl mt15 ml15 pr fullspan">
+                <span class="tc f13 dis_biock">已约</span>
+                <em class="pa t0 l0 zin1 tc f13"></em>
+            </div>
+            <div class="fl mt15 ml15 pr">
+                <span class="dis_biock tc f13">10:00</span>
+                <em class="pa t0 l0 zin1"></em>
+            </div>
+            <div class="fl mt15 ml15 pr">
+                <span class="dis_biock tc f13">10:30</span>
+                <em class="pa t0 l0 zin1"></em>
+            </div>
+            <div class="fl mt15 ml15 pr">
+                <span class="dis_biock tc f13">11:00</span>
+                <em class="pa t0 l0 zin1"></em>
+            </div>
+            <div class="fl mt15 ml15 pr">
+                <span class="dis_biock tc f13">11:30</span>
+                <em class="pa t0 l0 zin1"></em>
+            </div>
+            <div class="fl mt15 ml15 pr">
+                <span class="dis_biock tc f13">14:30</span>
+                <em class="pa t0 l0 zin1"></em>
+            </div>
+            <div class="fl mt15 ml15 pr">
+                <span class="dis_biock tc f13">15:00</span>
+                <em class="pa t0 l0 zin1"></em>
+            </div>
+            <div class="fl mt15 ml15 pr">
+                <span class="dis_biock tc f13">15:30</span>
+                <em class="pa t0 l0 zin1"></em>
+            </div>
+            <div class="fl mt15 ml15 pr">
+                <span class="dis_biock tc f13">16:00</span>
+                <em class="pa t0 l0 zin1"></em>
+            </div>
+            <div class="fl mt15 ml15 pr">
+                <span class="dis_biock tc f13">16:30</span>
+                <em class="pa t0 l0 zin1"></em>
+            </div>
+            <div class="fl mt15 ml15 pr">
+                <span class="dis_biock tc f13">17:00</span>
+                <em class="pa t0 l0 zin1"></em>
+            </div>
+            <div class="fl mt15 ml15 pr plussign">
+                <span class="dis_biock tc f13">加号</span>
+                <em class="pa t0 l0 zin1"></em>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+    <div class="datebox mt15 bra10 pb15">
+        <p class="f15 font_ht lineH22 fb mt15 pl15 pr10">病情备注<span class="f12 color999 dis_inlin_biock ml10" style="font-weight:normal;">（选填）</span></p>
+        <textarea class="descetext dis_biock  ml15 mr10 mt10 p5 bra3 f13 lineH20" placeholder="描述病情，让大夫更了解您的情况"></textarea>
+    </div>
+    <!-- end -->
+    <div class="datebox mt15 bra10 pb15">
+        <p class="f15 font_ht lineH22 fb mt15 pl15 pr10">支付方式</p>
+        <div class="pl15 pr15">
+        	<div class="paybox">
+            	<div class="fl f15 font_ht"><span class=" fl mt15 mr25 storezf"></span>微信支付</div><!--wechat storezf-->
+                <span class="xzsonsp fr pr"><input class="bor_none dis_inlin_biock" type="radio"><i class="pa"></i></span>
+            </div>
+            <div class="paybox zfbpaybox">
+            	<div class="fl f15 font_ht"><span class="alipay fl mt15 mr25"></span>支付宝支付</div>
+                <span class="xzsonsp fr pr"><input class="bor_none dis_inlin_biock" type="radio"><i class="pa"></i></span>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+<!--    
+<div class="datebox mt15 pl15 pr10 bra10 pb15">
+        <h3 class="f15 fb font_ht mt15 mb5 colorcf9156">温馨提示</h3>
+        <p class="f13 font_ht lineH25">
+            尊敬的客户您好！以下事项请您仔细阅读：<br>
+            1. 部分医生的预约需要预付费用，如您正常就诊，预付费用即抵扣等额的诊疗费用。如果需要取消预约，请您在<em class="colorcf9156 f13 fb">看诊日期前一天的18：00前取消</em>，系统将全额退还预付费用，晚于该时间则不予退还，感谢您的理解和配合！<br>
+            <em class="colorcf9156 f13 fb">2. 高端医疗保险直付客户，不需支付预约费用，直接到店结算。</em><br>
+            3. 若预约已满，或有其他疑问，可拨打客服电话咨询：<br>
+            浦西店：021-53028359<br>
+            浦东店：021-58762557
+		</p>
+    </div>
+-->    
+</div>       
+<div class="datebox payment w100 backgroundFFFFFF zin3">
+    <div class="fl make_yuyue">
+    	<span class="kefuimg fl mr10 mt10"><img class="dis_inlin_biock mr10" src="images/kefuimg.jpg"></span>
+        <span class="make_yuyuespan f15 font_ht color83634a lineH50">预约费用：300元</span>
+    </div>
+    <a class="diatelylj f15 font_ht fr tc colorfff" href="#">立即预约</a>
+</div>
+    
+    
+<div id="blackBg" class="dis_none"><!--   --></div>
+<div class="deleorder pl15 pr15 dis_none plusorder" style="height:1.4rem"><!--         -->
+	<h5 class="deleorder_h5 tc f15 font_ht mt15 pb10" style="height:auto; line-height:.25rem">如确认加号，支付成功之后客服人员会在就诊前1日告知您具体安排的就诊时间。</h5>
+    <div class="deleorder_div clearfix mt10">
+    	<span class="fl f15 font_ht tc quxiao">取消</span>
+        <span class="fl f15 font_ht colorff0000 tc confirm">确认</span>
+    </div>
+</div> 
+        
+        
+        
+</body>
+</html>

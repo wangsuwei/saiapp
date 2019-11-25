@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.16rem;
+}
+a,span{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 0.12rem;
+}
+.header{
+    width: 100%;
+    height: 0.5rem;
+}
+.main{
+    flex: 1;
+    overflow: auto;
+}
+.footer{
+    width: 100%;
+    height: 0.5rem;
+}

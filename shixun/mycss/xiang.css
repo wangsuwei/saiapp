@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.content{
+    flex: 1;
+    overflow: auto;
+    height: 100%;
+   
+}
+section{
+    height: 5rem;
+
+   
+}
+.mxb_top{
+    width: 7rem;
+    height: 5rem;
+    margin: 0 auto;
+    
+}
+.mxb_top1{
+    height: 1rem;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+.mxb_top1 span:nth-of-type(2){
+    color: red;
+}
+.mxb_content{
+    height: 1rem;
+    font-size: 16px;
+    line-height: 1rem;
+    border-bottom: 1px solid gainsboro;
+    
+}
+.mxb_foot div:nth-of-type(1){
+    height: 1rem;
+    font-size: 16px;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.mxb_foot div:nth-of-type(2){
+    height: 1rem;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.mxb_list{
+    height: 2.8rem;
+    margin-top: 0.2rem;
+    border-radius: 5px;
+}
+dl{
+    width: 100%;
+    height: 2.8rem;
+    display: flex;
+}
+dt{
+    flex: 2 ;
+
+}
+dt>img{
+    width: 2.50rem;
+    margin: 0.15rem 0.25rem
+}
+dd{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+
+
+}
+dd>p{
+    font-size: 14px;
+    width: 100%;
+    height: 1.2rem;
+    margin: 0.1rem;
+
+}
+.sp{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sp span:nth-of-type(2){
+    margin-right: 0.3rem;
+}
+.sp span:nth-of-type(1){
+    color: hotpink;
+}
+.mxb_good{
+    height: 1rem;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+}
+.mxb_good>p>span{
+    color: hotpink;
+}
+.mxb_zhifu{
+    height: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mxb_zhifu>p>img{
+    width: 0.5rem;
+}
+.mxb_zhifu>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rad{
+    margin-right: 0.2rem;
+}
+a{
+    display:block;
+    width: 1.5rem;
+    height: 0.6rem;
+    text-align: center;
+    line-height: 0.5rem;
+    background: chocolate;
+    font-size: 16px;
+    float: right;
+    margin-right: 0.3rem;
+}

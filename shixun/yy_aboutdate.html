@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="telephone=no" name="format-detection">
+<title>预约日期</title>
+<link type="text/css" rel="stylesheet" href="css/base.css">
+<link type="text/css" rel="stylesheet" href="css/index.css">
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/width_100.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<div class="synopsis pt30 pb20">
+    	<div class="doctor p15 clearfix backgroundFFFFFF doctorson">
+        	<a class="doctor_a fl" href="#"><img class="doctor_jian" src="images/doctor.jpg"></a>
+            <div class="doctor_div fr">
+            	<h3 class="f15 font_ht fb">张厚杰大夫</h3>
+                <h5 class="f12 font_ht mt5">主治医师</h5>
+                <p class="doctorjs f12 font_ht mt5">擅长：外感热病、咳喘痰鸣、内伤脾胃、风湿痹痛、急症阑尾、肝胆胰腺、急症阑尾、肝胆胰腺急症阑尾、肝胆胰腺急症阑尾、肝胆胰腺急症阑尾、肝胆胰腺</p>
+            </div>
+        </div>
+        <!-- 医生 end -->
+		<div id="test2" class="mt15"></div>
+        
+        <div class="datebox mt15 pl15 pr10 bra10 pb15">
+            <h3 class="f15 fb font_ht mt15 mb10">温馨提示</h3>
+            <p class="f13 font_ht lineH22">若预约满或需要预约7天后的门诊，可拨打电话预约。<br>浦东店：021-58762557<br>浦西店：021-53028359</p>
+		</div>
+        <button class="next_but colorfff f18 font_ht mt20 w100 bor_none">下一步</button>
+    </div>
+	<!-- end -->
+   <script src="laydate/laydate.js"></script> <!-- 改成你的路径 -->
+	<script>
+		laydate.render({
+		  elem: '#test2'
+		  ,position: 'static'
+		  ,showBottom: false
+		  ,theme: 'grid'
+		  //,min: 0
+		  ,min: 0
+          ,max: 90
+		  ,change: function(value, date){ //监听日期被切换
+			//lay('#testView').html(value);
+			$("#test2").find("td[lay-ymd='2019-9-30']").html("30(休)").addClass("laydate-disabled").css({"font-size":".14rem"});	
+			$("#test2").find("td[lay-ymd='2019-10-1']").html("1(休)").addClass("laydate-disabled").css({"font-size":".14rem"});	
+			$("#test2").find("td[lay-ymd='2019-10-2']").html("2(休)").addClass("laydate-disabled").css({"font-size":".14rem"});	
+		  } ,ready: function(){
+			$("#test2").find("td[lay-ymd='2019-9-30']").html("30(休)").addClass("laydate-disabled").css({"font-size":".14rem"});	
+			$("#test2").find("td[lay-ymd='2019-10-1']").html("1(休)").addClass("laydate-disabled").css({"font-size":".14rem"});	
+			$("#test2").find("td[lay-ymd='2019-10-2']").html("2(休)").addClass("laydate-disabled").css({"font-size":".14rem"});	
+		  }
+		});
+		
+		
+		
+		/*var test2 = $("#test2").find("td[lay-ymd='2019-9-29']").html();	
+		//var test2 = $("#test2").find("td[lay-ymd='2019-9-29']").html('休假');
+		
+		if( test2='2019-9-29' ){
+			//$("#test2").find("td").html('休假');	
+			test2 === "休假" ;	
+			alert(test2);
+			
+		}*/
+		
+		/*var interval = setInterval(function(){
+			var test2 = $("#test2").find("td[lay-ymd='2019-9-29']").html();
+			if( test2='2019-9-29' ){
+				clearInterval(interval);
+				$("#test2").find("td[lay-ymd='2019-9-29']").html("29(休)");
+				//alert(test2);
+			};
+		},100)
+		*/
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+    </script>
+
+ 
+</body>
+</html>

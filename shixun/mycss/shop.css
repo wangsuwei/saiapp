@@ -1,0 +1,140 @@
+.shop{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1.6rem;
+    margin: 0 auto;
+}
+.shopdiv{
+    width: 3.45rem;
+    color: #38f;
+    font-size: 0.14rem;
+    margin-top: 0.2rem;
+    text-align: right;
+}
+
+.cl{
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius: 50%;
+    border: 1px solid #999;
+    display: block;
+    margin-top: 0.3rem;
+    margin-right: 0.1rem;
+}
+.detashop{
+    width: 3.2rem;
+    border-radius: 0.08rem;
+    border: 2px solid #f7f7f7;
+    box-shadow: #f7f7f7 0px 0px 0.1rem;
+    padding: 0.15rem 0.15rem 0.15rem 0.05rem; 
+    margin-left: 0.16rem;
+    display: flex;
+    margin-top: 0.2rem;
+}
+.dl1{
+    width: 2.94rem;
+    display: flex;
+    justify-content: space-between;
+}
+dt{
+    width: 0.9rem;
+    height: 0.9rem;
+    float: left;
+}
+dt img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+dd{
+    width: 1.9rem;
+    height: 0.9rem;
+    float: right;
+    display: flex;
+    flex-direction: column;
+
+}
+dd a{
+    font-size: 0.14rem;
+    color: #000;
+}
+dd p{
+    font-size: 0.12rem;
+}
+.div1 span{
+    font-size: 0.16rem;
+    color: red;
+    float: left;
+    display: block;
+}
+.div1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.div1 a{
+    width: 0.16rem;
+    height: 0.16rem;
+    text-align: center;
+    line-height: 0.16rem;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #999;
+}
+.div1 input{
+    border: none;
+    width: 0.2rem;
+    text-align: center;
+}
+.div1 div{
+    display: flex;
+}
+.for{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 0.5rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border: 2px solid #f7f7f7;
+    overflow: hidden;
+    background: #fff;
+}
+.f-left{
+    float: left;
+    font-size: 0.12rem;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: #999;
+
+}
+.f-left .c2{
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius: 50%;
+    border: 1px solid #999;
+    display: block;
+    margin-left: 0.16rem;
+    margin-right: 0.1rem;
+}
+.f-left p{
+    font-size: 0.18rem;
+    color: red;
+    padding-left: 0.3rem;
+}
+.f-right{
+    float: right;
+}
+.f-right a{
+    display: block;
+    width: 0.95rem;
+    height: 100%;
+    text-align: center;
+    line-height: 0.5rem;
+    background: #8d6546;
+    color: #fff;
+    font-size: 0.15rem;
+}

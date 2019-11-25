@@ -1,0 +1,36 @@
+.zhang{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zhang img{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.5rem;
+    margin-right: 0.1rem;
+}
+.zhang span{
+    font-size: 0.16rem;
+}
+.zhang2{
+    margin-top: 0.25rem;
+}
+.zhang2>span{
+    font-size: 0.14rem;
+    color: gray;
+}
+.divimg img{
+    width: 100%;
+    margin-top: 0.1rem;
+}
+.divimg{
+    margin-bottom: 0.4rem;
+}
+.wrapper{
+    margin-left: 0.15rem;
+    margin-right: 0.15rem;
+}
+.wrapper h3{
+    margin-top: 0.2rem;
+    font-size: 0.16rem;
+}

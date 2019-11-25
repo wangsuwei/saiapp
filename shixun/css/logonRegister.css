@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.chenggyy{ background:url(../images/subjectbg.jpg) top center no-repeat;}
+.sanailogo{ width:.95rem; padding-top:.45rem;}
+.inputsr{ height:.4rem; background-color:#f8f8f8; border:solid 1px #f8f8f8;}
+.inputyzm{ width:1.4rem;}
+.inputyzm_but{ width:.9rem; height:.3rem; background-color:#83634a; margin-top:.06rem;} 
+.baoxianxz{ height:.21rem; margin-top:3px;}
+.chooseBtn{ display:none;}
+.choose-label{ box-shadow:#ccc 0px 0px 0px 1px; width:40px; height:20px; display:inline-block; border-radius:20px; position:relative; background-color:#bdbdbd; overflow:hidden; } 
+.choose-label:before{ content:''; position:absolute; left:0; width:20px; height:20px; display:inline-block; border-radius:20px; background-color:#fff; z-index:20; -webkit-transition:all 0.5s; transition:all 0.5s; }
+.chooseBtn:checked + label.choose-label:before{ left:20px; }
+.chooseBtn:checked + label.choose-label,.diatelybut{ background-color:#83634a; }
+.colorff2f2f{ color:#ff2f2f;}
+.logoing{ border:solid 1px #a3a3a3; height:.4rem; line-height:.4rem;}
+.sanailogoimg{ width:.95rem;}
+.decoratetp img{ height:.58rem;}
+.decoratetp_bot{ margin-top:.75rem;}
+.decoratetp_bot img{ width:.9rem;}
+
+
+
+

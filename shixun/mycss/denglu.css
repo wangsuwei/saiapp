@@ -1,0 +1,59 @@
+.header img{
+    width: 0.58rem;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0.5rem;
+}
+.imgbox{
+    text-align: center;
+}
+.imgbox img{
+    width: 0.95rem;
+    padding-top: 0.1rem;
+}
+h3{
+    font-size: 0.2rem;
+    text-align: center;
+    margin-top: 0.1rem;
+}
+.box_p{
+    font-size: 0.12rem;
+    text-align: center;
+    margin-top: 0.1rem;
+}
+.shouji{
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    border:1px solid gainsboro;
+    margin:  0 auto;
+    border-radius: 0.03rem;
+    margin-top: 0.12rem;
+}
+.zhuce{
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    border:1px solid gainsboro;
+    margin:  0 auto;
+    border-radius: 0.03rem;
+    margin-top: 0.1rem;
+}
+.footerimg{
+    position: relative;
+}
+.footerimg img{
+width: 0.9rem;
+margin-top:1rem;
+}
+.lianxi{
+    left:80px;
+    top: 480px;
+    position: absolute;
+    color: white;
+    background: rgba(0,0,0,0.6);
+    border-radius: 0.05rem;   
+    padding: 0.1rem 0.2rem; 
+}

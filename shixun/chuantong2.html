@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="telephone=no" name="format-detection">
+<title>传方配药-领取方式</title>
+<link type="text/css" rel="stylesheet" href="css/base.css">
+<link type="text/css" rel="stylesheet" href="css/index.css">
+<link type="text/css" rel="stylesheet" href="css/spinner.css">
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/width_100.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/jquery.Spinner.js"></script>
+</head>
+<body class="backgroundFFFFFF">
+<div class="chenggyy clearfix pt15">
+    <div class="clearfix pl15 pr15 pt15">
+        <img class="suerioc fl mr5" src="images/userimg_ioc.jpg">
+        <span class="f16 font_ht fl colorcf9156">传方人</span>
+    </div>
+    <div class="clearfix pl15 pr15 mt15">
+        <span class="fl f14 lineH25">姓名：</span>
+        <input class="namexm fl pl10" type="text">
+    </div>
+    <div class="clearfix pl15 pr15 mt15">
+        <span class="fl f14">性别：</span>
+        <div class="fl font_ht">
+        	<span class="genderson f14 fl pr ml5"><i class="pa"></i><input class="hidden mr5" type="radio" name="xbradio">男</span>
+        	<span class="genderson f14 fl pr ml20"><i class="pa"></i><input class="hidden mr5" type="radio" name="xbradio">女</span>
+        </div>
+    </div>
+    <div class="clearfix pl15 pr15 mt15">
+        <span class="fl f14 lineH25">年龄：</span>
+        <input class="namexm fl pl10 mr5 namenl" type="text">
+        <em class="fl">岁</em>
+    </div>
+    <p class="pl15 pr15 f14 font_ht mt20">既往病史和过敏：</p>	
+    <textarea class="factorytext dis_biock mt10 ml15 mr15 font_ht pl10 pt5 pr10 pb10 lineH18 f14" placeholder="输入病史和过敏源"></textarea>
+    <div class="hrbox_son w100 mt15"></div>
+    <div class="mt15">
+    	<div class="clearfix pl15 pr15">
+        	<img class="cloudy fl mr5" src="images/cloudy.jpg">
+            <span class="f16 font_ht fl colorcf9156 mr5">上传处方</span>
+            <em class="f12 colorff0000 pt5 fl">最多可以上传3张</em>
+        </div>	
+        <div class="uploadbox clearfix ml15 mr15 uploadbox_son">
+            <div class="uptenct mt15 ml15 fl pr" name="1">
+            	<form class="container pa ovhidden zin3" enctype="multipart/form-data" method="post"> 
+                    <input class="chooseImage1 chooseinp" type="file" name="file">
+                    <img class="cropedBigImg1 upxintp dis_none" value='custom' data-address=''>
+                </form>
+            	<span class="ysimg pa zin1"></span>
+                <em class="qvxiaoem1 pa dis_none fistsoem"></em>
+            </div>
+            <div class="uptenct mt15 ml15 fl pr" name="2">
+            	<form class="container pa ovhidden zin3" enctype="multipart/form-data" method="post"> 
+                    <input class="chooseImage2 chooseinp" type="file" name="file">
+                    <img class="cropedBigImg2 upxintp dis_none" value='custom' data-address=''>
+                </form>
+            	<span class="ysimg pa zin1"></span>
+                <em class="qvxiaoem2 pa dis_none fistsoem"></em>
+            </div>
+            <div class="uptenct mt15 ml15 fl pr" name="3">
+            	<form class="container pa ovhidden zin3" enctype="multipart/form-data" method="post"> 
+                    <input class="chooseImage3 chooseinp" type="file" name="file">
+                    <img class="cropedBigImg3 upxintp dis_none" value='custom' data-address=''>
+                </form>
+            	<span class="ysimg pa zin1"></span>
+                <em class="qvxiaoem3 pa dis_none fistsoem"></em>
+            </div>
+        </div>
+        <!-- end -->
+        <div class="hrbox_son w100 mt15"></div>
+    </div>
+    <!-- end -->
+    <div class="clearfix mt15" style="background-color:#83634a; padding:.03rem .15rem;">
+        <span class="fl f15 colorfff">药材类型：</span>
+        <div class="fl font_ht">
+        	<span class="genderson_zy f15 fl pr ml5 genderson_xiyao colorfff genderson_zy_son"><i class="pa"></i><input class="hidden mr5" type="radio" name="zyradio">中药饮片</span>
+        	<span class="genderson_zy f15 fl pr ml20 genderson_keli colorfff genderson_zy_son"><i class="pa"></i><input class="hidden mr5" type="radio" name="zyradio">颗粒剂</span>
+        </div>
+    </div>
+    <div class="clearfix pl15 pr15 mt15 dis_none medicinejy">
+        <span class="fl f14">煎药类型：</span>
+        <div class="fl font_ht">
+        	<span class="gendersonjy f14 fl pr ml5"><i class="pa"></i><input class="hidden mr5" type="radio" name="jyradio">代煎</span>
+        	<span class="gendersonjy f14 fl pr ml20"><i class="pa"></i><input class="hidden mr5" type="radio" name="jyradio">自煎</span>
+        </div>
+    </div>
+    <!--<div class="clearfix pl15 pr15 mt15">
+        <span class="fl f14">选择付数：</span>
+        <div class="fl">
+            <div id="input-num1" class="Spinner"></div>
+        </div>
+    </div>-->
+    <div class="clearfix pl15 pr15 mt15">
+        <span class="fl f14 lineH25">开方医生：</span>
+        <input class="namexm fl pl10 nameys" type="text" placeholder="选填">
+    </div>
+    <div class="clearfix pl15 pr15 mt15">
+        <span class="fl f14 lineH25 tr beizhus">备注：</span>
+        <input class="namexm fl pl10 nameys" type="text" placeholder="选填">
+    </div>
+    <div class="clearfix pl15 pr15 mt15">
+        <span class="fl f14 colorcf9156">取药方式：</span>
+        <div class="fl font_ht">
+        	<span class="gendersonlq fl pr ml5 gendersonlq_zq"><i class="rsonxb_fist pa"></i><input class="hidden mr5" type="radio" name="lqradio" checked="checked"><em class="f14">自取</em></span>
+        	<span class="gendersonlq fl pr ml20 gendersonlq_kd"><i class="pa"></i><input class="hidden mr5" type="radio" name="lqradio"><em class="f14">快递</em></span>
+            <span class="gendersonlq fl pr ml20 gendersonlq_ss"><i class="pa"></i><input class="hidden mr5" type="radio" name="lqradio"><em class="f14">闪送</em></span>
+        </div>
+    </div>
+    <div class="hrbox_son w100 mt15"></div>
+    <div class="takingzq takingzq_zq">
+    	<div class="clearfix pl15 pr15 mt15">
+            <div class="fl">
+                <img class="addico fl" src="images/addico.jpg">
+                <span class="fl f16 font_ht colorcf9156 ml5">自取地址</span>
+            </div>
+        </div>
+        <div class="pl20 pr20 mt10 clearfix">
+            <p class="choosep fl f13 font_ht lineH20">地址1：建国东路320号【浦西店】</p>	
+            <span class="choosespan fr pr"><i class="pa"></i><input class="hidden" type="radio" name="dzxradio"></span>
+        </div>
+        <div class="pl20 pr20 clearfix mt10">
+            <p class="choosep fl f13 font_ht lineH20">地址2：浦电路114号【浦东店】</p>	
+            <span class="choosespan fr pr"><i class="pa"></i><input class="hidden" type="radio" name="dzxradio"></span>
+        </div>
+    </div>
+    <!--自取 end -->
+    <div class="takingzq takingzq_kd">
+    	<div class="clearfix pl15 pr15 mt15">
+            <div class="fl">
+                <img class="addico fl" src="images/addico.jpg">
+                <span class="fl f16 font_ht colorcf9156 ml5">收货地址</span>
+            </div>
+            <a class="receivingsh fr f12 font_ht colorfff tc">选择收货地址</a>
+        </div>
+        <div class="mt15 pl20 pr20">
+            <div class="clearfix font_ht">
+                <span class="fl f13">收件人：张三</span>
+                <span class="fr f13">电话：139****8914</span>
+            </div>
+            <p class="f13 font_ht mt10 lineH20">收货地址：建国东路320号【浦西店】</p>	
+        </div>
+    </div>
+    <!--快递 end -->
+    <div class="takingzq takingzq_ss">
+    	<div class="clearfix pl15 pr15 mt15">
+            <div class="fl">
+                <img class="addico fl" src="images/addico.jpg">
+                <span class="fl f16 font_ht colorcf9156 ml5">收货地址</span>
+            </div>
+            <a class="receivingsh fr f12 font_ht colorfff tc">选择收货地址</a>
+        </div>
+        <div class="mt15 pl20 pr20">
+            <div class="clearfix font_ht">
+                <span class="fl f13">收件人：李四</span>
+                <span class="fr f13">电话：139****8914</span>
+            </div>
+            <p class="f13 font_ht mt10 lineH20">收货地址：浦电路114号【浦东店】</p>	
+        </div>
+    </div>
+    <!--闪送 end -->
+    <div class="datebox m15 pl15 pr10 bra10 pb15">
+        <h3 class="f15 fb font_ht mt15 mb5 colorcf9156">温馨提示</h3>
+        <p class="f13 font_ht lineH25">
+            尊敬的客户您好！以下事项请您仔细阅读：<br>
+            1. 您上传处方后，门诊会根据您的处方内容进行审核，如您上传的处方不合规定，本门诊部将无法调配发药，并会短信通知您，由此给您带来的不便还请您谅解，谢谢！<br>
+            2. 药房审核处方并划价后，会通过手机短信告知您价格，请您留意查收短信。您在平台支付完成后，我们会尽快为您安排发药。<br>
+            3. 您可以在微信公众号“预约看诊”—“个人中心”—“传方配药”栏目中查看您的订单的实时状态，选择快递的客户可实时查看物流信息。<br>
+            4. 如有任何疑问，请拨打客服电话：021-53028359，谢谢！
+        </p>
+    </div>
+    
+
+
+    
+    
+
+    <div class="submibox pt35 pb50 mt20">
+    	<button class="prescricf f18 font_ht tc dis_biock mAuto colorfff bor_none">提交</button>
+    </div>
+    
+    
+    
+    
+    
+    
+</div>
+<!-- end -->
+    
+    
+    
+    
+<div id="blackBg" class="dis_none"><!--         --></div>
+<div class="successpay bra10 dis_none"><!--      -->
+	<h5 class="f18 font_ht colorfff tc pr">提<em class="dis_inlin_biock kongxiem"></em>示<span class="closegb pa"></span></h5>
+    <div class="clearfix mt30 tc">
+    	<img class="dis_inlin_biock mr5" style="width:.2rem;" src="images/cgtis.png">
+        <span class="f15 font_ht dis_inlin_biock">您的处方已提交成功</span>
+    </div>
+    <a class="seecklk dis_biock mAuto tc mt20 colorfff bra5 f14" href="#">查看我的处方</a>
+</div>           
+<div class="addrxx dis_none">
+	<span class="addclose"></span>
+    
+</div>
+<!-- end -->
+
+
+
+
+
+<script type="text/javascript">
+	$(function(){
+		$("#input-num1").Spinner();
+		 updatenum(1);
+	})
+	$(".addclose").click(function(){
+		//$("body").removeClass("body");
+		$("#blackBg,.addrxx").hide();
+	});
+</script>	
+</body>
+</html>

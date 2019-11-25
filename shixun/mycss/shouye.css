@@ -1,0 +1,270 @@
+.search{
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 2.53rem;
+    height: .3rem;
+    font-size: 0.12rem;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin: auto;
+    line-height: 0.3rem;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.search img{
+    width: 0.12rem;
+    vertical-align: middle;
+}
+.swiper-container img{
+    width: 100%;
+    height: 1.6rem;
+}
+.swiper-container .swiper-slide{
+    display: flex;
+}
+.xiaoxi{
+    display: flex;
+    align-items: center;
+    margin-left: 0.2rem;
+    height: 0.4rem;
+}
+.xiaoxi img {
+    width: 0.16rem;
+    height: 0.16rem;
+    margin-right: 0.1rem;
+}
+.xiaoxi span:nth-of-type(1){
+    color: darkred;
+}
+.xiaoxi span:nth-of-type(2){
+    font-size: 0.12rem;
+}
+.fentiao{
+    height: 0.1rem;
+    background: #f0f0f0;
+}
+
+.fenlei_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fenlei{
+    box-sizing: border-box;
+    padding: 0.1rem 0.15rem 0.1rem 0.15rem;
+}
+.fenlei_div2{
+    display: flex;
+    font-size: 0.12rem;
+}
+.fenlei_div2 p:nth-of-type(2){
+    background:saddlebrown;
+    color:white;
+    border-radius: 50%;
+    padding: 0.01rem 0.03rem;;
+    display: flex;
+    align-items: center;
+    margin-left: 0.05rem;
+}
+.fenleiimg{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.1rem;
+}
+.fenleiimg div{
+    width: 49%;
+    margin-top: 0.02rem;
+}
+.fenleiimg div img{
+    width: 100%;
+    height: 0.93rem;
+}
+.yangsheng{
+    box-sizing: border-box;
+    padding: 0.1rem 0.15rem 0.1rem 0.15rem;
+}
+.yangsheng a img{
+    width: 100%;
+    margin-top: 0.1rem;
+}
+.yangshengimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.yangshengimg a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    width: 48%;
+    font-size: 0.1rem;
+}
+.yangshengimg p{
+    margin-top: 0.05rem;
+}
+.yangshengimg a p span{
+    font-size: 0.18rem;
+    color: red;
+    float: left;
+}
+.yangshengimg button{
+    width: 0.15rem;
+    height: 0.15rem;
+    border: none;
+    border-radius: 50%;
+    float: right;
+    margin-top: 0.05rem;
+}
+.footer div{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer div p{
+    margin-top: 0.02rem;
+}
+.footer{
+    display: flex;
+    border-top: 1px solid gainsboro;;
+}
+.footer_i{
+    width: 0.2rem;
+    height: 0.2rem;
+    background:url('../images/zmioc.png') no-repeat 0px -0.2rem;
+    background-size: 100% ;
+}
+.footer_i2{
+    width: 0.2rem;
+    height: 0.2rem;
+    background:url('../images/zmioc.png') no-repeat 0px -0.4rem;
+    background-size: 100% ;
+}
+.footer_i3{
+    width: 0.2rem;
+    height: 0.2rem;
+    background:url('../images/zmioc.png') no-repeat 0px -0.8rem;
+    background-size: 100% ;
+}
+.footer_i4{
+    width: 0.2rem;
+    height: 0.2rem;
+    background:url('../images/zmioc.png') no-repeat 0px -1.2rem;
+    background-size: 100% ;
+}
+.add{
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 9999;
+    /* color: white; */
+}
+@keyframes myfirst{
+    from{bottom: -3.3rem;}
+    to{bottom: 0rem;}
+}
+.shopadd{
+    width: 100%;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: myfirst 0.5s;
+}
+.addhead{
+    display: flex;
+    width:100%;
+    box-sizing: border-box;
+    padding: 0 0.1rem;
+}
+.addhead img{
+    width: 0.98rem;
+    height: 0.98rem;
+    border-radius: 0.05rem;
+    margin-top: -0.2rem;
+}
+.addhead section{
+    margin-left: 0.1rem;
+}
+.sec_p{
+    margin-top: 0.2rem;
+    color: red;
+    font-size: 0.2rem;
+}
+.chahao{
+    font-size: 0.2rem;
+    margin-left: 1.5rem;
+    color: gray;
+    /* color: white; */
+}
+.shopadd_zy{
+    display: flex;
+    font-size: 0.12rem;
+    box-sizing: border-box;
+}
+h4{
+    padding: 0 0.1rem;
+    margin-top: 0.1rem;
+}
+.shopadd_zy p{
+    border: 0.01rem solid gainsboro;
+    padding: 0.05rem 0.1rem;
+    border-radius: 0.03rem;
+    margin-left: 0.15rem;
+    margin-top: 0.2rem;
+}
+.shuxing{
+    display: flex;
+}
+.shuxing p{
+    border: 0.01rem solid gainsboro;
+    padding: 0.05rem 0.1rem;
+    border-radius: 0.03rem;
+    margin-left: 0.15rem;
+    margin-top: 0.2rem;
+    font-size: 0.12rem;
+}
+.input_num{
+    display: flex;
+    margin-left: 0.1rem;
+    margin-top: 0.2rem;
+}
+.input_num a{
+    padding: 0.05rem 0.1rem;
+    font-size: 0.16rem;
+    border: 0.01rem solid gainsboro;
+}
+.input_num input{
+    text-align: center;
+    width: 0.5rem;
+    border: 0.01rem solid gainsboro;
+}
+.shopgo{
+    display: flex;
+    margin-top: 0.1rem;
+}
+.shopgo a{
+    width: 50%;
+    line-height: 0.4rem;
+    height: 0.4rem;
+    font-size: 0.16rem;
+    text-align: center;
+}
+.shopgo a:nth-of-type(1){
+    color: red;
+    background: #f8f8f8;
+}
+.shopgo a:nth-of-type(2){
+    color: white;
+    background: saddlebrown;
+}
+

@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    flex: 1;
+    height: 100%;
+    overflow: auto;
+}
+.mxb_shou{
+    height: 0.8rem;
+    width: 7rem;
+    margin: 0 auto;
+    font-size: 16px;
+   color: grey;
+    line-height: 0.8rem;
+}
+.mxb_list{
+    height: 2.8rem;
+    margin-top: 0.2rem;
+    border-radius: 5px;
+}
+dl{
+    width: 100%;
+    height: 2.8rem;
+    display: flex;
+}
+dt{
+    flex: 2 ;
+
+}
+dt>img{
+    width: 2.50rem;
+    margin: 0.15rem 0.25rem
+}
+dd{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+
+
+}
+dd>p{
+    font-size: 14px;
+    width: 100%;
+    height: 1.2rem;
+    margin: 0.1rem;
+
+}
+.sp{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sp span:nth-of-type(2){
+    margin-right: 0.3rem;
+}
+.sp span:nth-of-type(1){
+    color: hotpink;
+}
+.mxb_tui{
+    height: 1rem;
+    color: grey;
+    font-size: 16px;
+    text-indent: 20px;
+    margin-top: 0.2rem;
+}
+input{
+    width: 5rem;
+    height: 0.45rem;
+}
+.mxb_button{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 6rem;
+    height: 0.7rem;
+    border: none;
+    background: chocolate;
+    color: cornsilk;
+    border-radius: 20px;
+}

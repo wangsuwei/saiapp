@@ -1,0 +1,100 @@
+.datebox {
+    border: 2px solid #f7f7f7;
+    -webkit-box-shadow: #f7f7f7 0px 0px .1rem;
+    -moz-box-shadow: #f7f7f7 0px 0px .1rem;
+    box-shadow: #f7f7f7 0px 0px .1rem;
+}
+.yscon {
+    width: 2.4rem;
+}
+.chenggyy {
+    background: url(../img/subjectbg.jpg) top center no-repeat;
+}
+
+.synopsis {
+    background: url(../img/synopsis.jpg) top repeat-x;
+    padding-left: .12rem;
+    padding-right: .12rem;
+}
+
+.doctor{
+    border-radius: 0.08rem;
+}
+.doctorson{
+    border: 2px solid #f7f7f7;
+}
+.doctor_a,.doctor_a img{
+    width: 0.9rem;
+    height: 0.9rem;
+}
+.doctor_div{
+    width: 2.1rem;
+}
+.doctor_jian {
+    border-radius: .45rem;
+}
+
+/* .seetend{
+    display: flex;
+    justify-content: space-between;
+}
+.seetend a{
+    width: 25%
+} */
+.seetend a{
+    width: 0.865rem;
+}
+.seetend a img{
+    width: 0.3rem;
+}
+.seetend a span{
+    margin-top: 0.07rem;
+}
+
+
+.briefyue{
+    border-bottom: 1px solid #f7f7f7;
+}
+.briefyue img{
+    height: 0.17rem;
+    margin-top: 0.02rem;
+}
+.newlyadded{
+    width: 3.4rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    background-color: #8d6546;
+    border-radius: 0.2rem;
+}
+
+
+
+
+.doctorjs{
+    height: 0.33rem;
+    line-height: 0.18rem;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+
+.yishengyy {
+    height: .46rem;
+}
+
+.yishengyy p {
+    line-height: .46rem;
+    width: 2.35rem;
+}
+
+.yishengyy a {
+    background-color: #83634a;
+    width: .7rem;
+    height: .25rem;
+    line-height: .25rem;
+    border-radius: .12rem ;
+    margin-top:.09rem;
+}

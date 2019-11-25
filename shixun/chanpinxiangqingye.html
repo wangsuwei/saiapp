@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper-3.4.2.min.css">
+    <title>产品详情</title>
+    <script src="./js/jquery.Spinner.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/width_100.js"></script>
+    <script src="./js/swiper-3.4.2.min.js"></script>
+</head>
+<style>
+    #zmk_banner {
+        width: 100%;
+    }
+    #zmk_banner img {
+        width: 100%;
+    }
+    .cpnametit {
+        line-height: .2rem;
+        height: .4rem;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .zmm{
+        width: 100%;
+    }
+</style>
+<body>
+    <div class="mb50">
+        <!--幻灯片-->
+        <div class="swiper-container" id="zmk_banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"> <img src="images/goodsimg07.jpg" alt=""></div>
+                <div class="swiper-slide"> <img src="images/goodsimg06.jpg" alt=""></div>
+                <div class="swiper-slide"> <img src="images/goodsimg03.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <!-- 幻灯片 end -->
+        <h3 class="cpnametit f14 font_ht mt20 ml15 mr15 lineH20">
+            人参片即食养禄堂人参切片长白山野山参生晒白参含片泡水散装泡茶人参片即食养禄堂人参切片长白山野山参生晒白参含片泡水散装泡茶人参片即食养禄堂人参切片长白山野山参生晒白参含片泡水散装泡茶人参片即食养禄堂人参切片长白山野山参生晒白参含片泡水散装泡茶
+        </h3>
+        <p class="detailsreal clearfix mt10 ml15 mr15"><span class="fl f18 colorff0000">￥369.00</span><em
+                class="fr f12 color666">已售出：252件</em></p>
+        <div class="hrbox_son w100 mt15"></div>
+        <div class="xzmold clearfix mt15 ml15 mr15">
+            <p class="fl f12 font_ht color666 mr10">类型</p>
+            <span class="fl f12 font_ht">请选择规格属性分类</span>
+            <em class="xzhoice fr"></em>
+        </div>
+        <div class="hrbox_son w100 mt15"></div>
+        <div class="detailsms w100 tc zmm">
+            <img src="images/detailsms.jpg">
+        </div>
+    </div>
+</body>
+<script>
+    var banner = new Swiper("#zmk_banner", {
+        autoplay: 1500,
+        loop: true,
+        pagination: '.swiper-pagination'
+    })
+</script>
+</html>

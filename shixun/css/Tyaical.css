@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mxb_datebox{
+    width: 90%;
+    height: 1.5rem;
+    margin-left: 5%;
+    border: 0.02rem solid #f7f7f7;
+    font-size: 0.3rem;
+    margin-top: 0.3rem;
+}
+.mxb_sp{
+    float: left;
+    margin-left: 0.2rem;
+}
+.mxb_sp h5{
+    font-size: 0.3rem;
+    margin-top: 0.3rem;
+    margin-bottom:0.2rem ;
+}
+.mxb_sp em{
+    color:#999;
+    font-style: normal;
+    font-weight: normal;
+}
+a{
+    float: right;
+    margin-right: 0.2rem;
+    line-height: 1.5rem;
+    text-decoration: none;
+    color:#999;
+}
